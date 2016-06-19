@@ -1,0 +1,20 @@
+---
+output: html_document
+---
+This is my first markdown file.
+===============================
+
+Now let me present you some data.
+
+```{r}
+set.seed(10)
+time<- rbinom(10,1,0.5)
+```
+
+this is `r time`.  
+# it looks good
+## that's good.
+
+-hello  
+-world
+
